@@ -67,3 +67,19 @@ In this case, linear regression (for a first step)
 
 Evaluate the results from your algorithm / model
 
+## Intuition behind the Linear Regression
+
+It uses an independent variable (known as Feature) and a dependent variable, known as Target. 
+It represents their relationship. 
+
+It is the slope of the change => y = m*x + c
+
+The values of c and m would be parameters, which we would not know in true machine learning. 
+
+y = m*x + c ::: h \theta (x) = theta0 + theta1*x
+
+### Residuals
+
+They are the difference between the predicted value with the slope, and the actual value. 
+
+We need to use the slope that minimizes the sum of the square of the residuals. 
