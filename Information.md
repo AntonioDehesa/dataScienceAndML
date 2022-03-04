@@ -83,3 +83,12 @@ y = m*x + c ::: h \theta (x) = theta0 + theta1*x
 They are the difference between the predicted value with the slope, and the actual value. 
 
 We need to use the slope that minimizes the sum of the square of the residuals. 
+
+
+## Section 4 
+
+Introduction to Optimization and the Gradient Descent Algorithm
+
+We are going to see how a machine learns. 
+I have already taken college classes about it, but its good to see it again. 
+
