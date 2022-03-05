@@ -92,3 +92,22 @@ Introduction to Optimization and the Gradient Descent Algorithm
 We are going to see how a machine learns. 
 I have already taken college classes about it, but its good to see it again. 
 
+### How a machine learns
+
+Step 1: Make a prediction: for example, the coefficients in a linear function. 
+Step 2: Calculate the error: test how good was the prediction
+Step 3: Learn
+Then go back to step one, over and over again. 
+
+
+### Introduction to Cost Functions
+
+Optimization involves finding the solution with the lowest cost. those are the cost functions. 
+
+Also named loss or error function. 
+
+#### Residual sum of squares (RSS)
+
+The sum of the squares of the differences between the predicted values and the actual values. This gives us a metric for how good our, say, coefficients, are. 
+
+It basically measures the side of out error. 
