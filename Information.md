@@ -111,3 +111,11 @@ Also named loss or error function.
 The sum of the squares of the differences between the predicted values and the actual values. This gives us a metric for how good our, say, coefficients, are. 
 
 It basically measures the side of out error. 
+
+
+* Concave functions are like mountains: a peak, and the rest of it is at a lower point
+* Convex is like a valley: a lower point, surrounded by higher points. 
+
+#### Gradient Descent
+
+An algorith to find the minimum of a function. It looks, step by step, a lower point, and a lower point, until it cannot find a lower point. It has the disadvantage of falling into a false bottom, a local minimum, and not a global minimum. 
