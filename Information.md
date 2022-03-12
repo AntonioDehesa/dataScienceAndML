@@ -119,3 +119,9 @@ It basically measures the side of out error.
 #### Gradient Descent
 
 An algorith to find the minimum of a function. It looks, step by step, a lower point, and a lower point, until it cannot find a lower point. It has the disadvantage of falling into a false bottom, a local minimum, and not a global minimum. 
+
+In gradient descent, if you choose a bigger step, you may get to the right answer faster, but you risk never converging to the right answer, regardless of number of iterations. 
+
+How to choose an appropiate learning rate? 
+If its too big, it may never converge.
+If its too small, it may take forever. 
