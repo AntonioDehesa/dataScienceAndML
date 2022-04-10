@@ -125,3 +125,28 @@ In gradient descent, if you choose a bigger step, you may get to the right answe
 How to choose an appropiate learning rate? 
 If its too big, it may never converge.
 If its too small, it may take forever. 
+
+
+## Section 5
+
+Full steps to solve a problem
+
+### Defining the problem
+
+The most important step is to correctly define the problem. 
+
+For example, to get the house prices in a city, you would need the size of the target house, number of rooms, location, how old it is, the material it is built with, who it belonged to, any crimes in there, etc. 
+
+### Gather the data
+
+Places to gather free datasets: Google, obviously, and some python modules include their own practice datasets, such as scikit learn. 
+
+### Cleaning and exploring the data
+
+We have to understand: 
+* The source of the data
+* Description of the data set
+* Number of data points
+* Number of features
+* Names of features
+* Description of the features
