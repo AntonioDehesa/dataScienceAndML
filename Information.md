@@ -150,3 +150,12 @@ We have to understand:
 * Number of features
 * Names of features
 * Description of the features
+
+
+### Data Visualization
+
+Distribution and outliers of the data. 
+
+#### Histogram
+Data visualization technique. Instances in the data that have a certain value. 
+A normal distribution should be like a bell curve. The normal values in the middle, the ouliers in the extremes. 
