@@ -159,3 +159,21 @@ Distribution and outliers of the data.
 #### Histogram
 Data visualization technique. Instances in the data that have a certain value. 
 A normal distribution should be like a bell curve. The normal values in the middle, the ouliers in the extremes. 
+
+## Correlation
+Degree to which things move together. 
+Positive correlation: if one moves up, the other one also moves up
+Negative correlation: if one moves up, the other one moves down
+No correlation: random values unrelated to each other
+
+The mathematical notation for correlation is: 
+Pxy = corr(X,Y)
+where p is rho, the greek letter. 
+
+It goes from -1.0 to 1.0
+
+We care about the strength of the correlation, and its direction. 
+
+### Multicollinearity
+when 2 or more predictors in the regression are highly related to each other.
+this may cause unreliable estimates and nonsensical findings. 
